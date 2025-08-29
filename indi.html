@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire de contact</title>
+</head>
+<body>
+
+    <h1>Formulaire de contact international</h1>
+    
+    <form action="#" method="post">
+        <label for="country">Sélectionnez votre pays :</label>
+        <select id="country" name="country">
+            <option value="senegal">Sénégal</option>
+            <option value="france">France</option>
+            <option value="usa">États-Unis</option>
+            <option value="canada">Canada</option>
+            <option value="uk">Royaume-Uni</option>
+            <option value="germany">Allemagne</option>
+            <option value="italy">Italie</option>
+            <option value="spain">Espagne</option>
+            <option value="belgium">Belgique</option>
+            <option value="switzerland">Suisse</option>
+            <option value="morocco">Maroc</option>
+            <option value="algeria">Algérie</option>
+            <option value="tunisia">Tunisie</option>
+            <option value="ivory_coast">Côte d'Ivoire</option>
+            <option value="mali">Mali</option>
+            <option value="burkina_faso">Burkina Faso</option>
+        </select>
+
+        <label for="phone_code">Indicatif téléphonique :</label>
+        <input type="text" id="phone_code" name="phone_code" value="+221" readonly>
+
+        <label for="name">Nom :</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="firstname">Prénom :</label>
+        <input type="text" id="firstname" name="firstname" required>
+
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Téléphone :</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="message">Message :</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Soumettre</button>
+    </form>
+
+</body>
+</html>
